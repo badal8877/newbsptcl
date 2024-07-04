@@ -1,0 +1,53 @@
+.mapXyz {
+    width:50%;
+    height: 350px;
+background-color: aqua;
+object-fit: scale-down;
+
+
+  
+  }
+  
+  .mapXyz svg {
+    border: 1px solid rgb(14, 51, 103);
+  }
+  
+  .mapXyz polygon {
+    fill: rgb(76, 90, 90);
+    cursor: pointer;
+  }
+  
+  .mapXyz text {
+    fill: white;
+    font-size: 8px;
+    text-anchor: middle;
+    z-index: 2;
+   
+  }
+  
+  .mapXyz text.tooltip {
+    fill: bisque;
+   
+  }
+  .mapContainer {
+  position: relative;
+}
+
+.mapSvg {
+  width: 100%;
+  height: auto;
+}
+
+.hoverRect {
+  pointer-events: none; /* Ensure hover does not interfere with polygon */
+  position: absolute;
+  z-index: 1; /* Place hover rect above polygons */
+}
+
+.hoverText {
+  pointer-events: none; /* Ensure hover does not interfere with polygon */
+  position: absolute;
+  z-index: 2; /* Place hover text above hover rect */
+}
+
+  
