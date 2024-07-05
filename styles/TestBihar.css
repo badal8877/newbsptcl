@@ -1,0 +1,17 @@
+.TestContainer{
+    width: 60%;
+    height: 400px;
+  
+}
+.tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    /* Ensures tooltip does not block mouse events */
+    pointer-events: none; 
+    display: none;
+     
+  }
+  
